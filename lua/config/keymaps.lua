@@ -6,3 +6,7 @@ local default_opts = { noremap = true, silent = true }
 
 map("", "<leader>e", ":Explore . <CR>", default_opts)
 map("", "<leader>E", ":Explore <CR>", default_opts)
+
+vim.keymap.set("v", "<", "<")
+vim.keymap.set("v", ">", ">")
+
